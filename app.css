@@ -6,7 +6,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'Syne', sans-serif;
+  font-family: "Syne", sans-serif;
   margin: 0;
   padding: 0;
   color: #333;
@@ -26,7 +26,6 @@ h1 {
   font-size: 5.4rem;
   color: #e9cb22;
   margin-bottom: 1rem;
-  
 }
 
 h1 > span {
@@ -49,7 +48,7 @@ a {
   font-size: 1.4rem;
   color: aqua;
   text-decoration: none;
-  border-bottom: 3px solid rgb(153, 24, 245)  ;
+  border-bottom: 3px solid rgb(153, 24, 245);
 }
 
 .intro-text {
@@ -102,5 +101,24 @@ a {
 
 .fancy-text-link:hover {
   box-shadow: rgb(153, 24, 245) 0px -1px 0px inset;
+}
 
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1.3s ease-in-out;
+  -moz-transition: opacity 1.3s ease-in-out;
+  -o-transition: opacity 1.3s ease-in-out;
+  transition: opacity 1.3s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
 }
