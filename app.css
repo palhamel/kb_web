@@ -92,11 +92,12 @@ a {
   width: auto;
   padding-top: 1rem;
   text-align: center;
+  padding-bottom: 10rem;
 }
 
 .fancy-text-link {
   color: rgb(223, 174, 209);
-  box-shadow: rgb(45, 8, 72) 0px -4px 0px inset;
+  box-shadow: rgb(153, 24, 245) 0px -4px 0px inset;
 }
 
 .fancy-text-link:hover {
