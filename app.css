@@ -19,12 +19,14 @@ h2,
 h3,
 h4 {
   margin-bottom: 1rem;
+  text-decoration: none;
 }
 
 h1 {
   font-size: 5.4rem;
   color: #e9cb22;
   margin-bottom: 1rem;
+  
 }
 
 h1 > span {
@@ -47,6 +49,7 @@ a {
   font-size: 1.4rem;
   color: aqua;
   text-decoration: none;
+  border-bottom: 3px solid rgb(153, 24, 245)  ;
 }
 
 .intro-text {
@@ -89,4 +92,14 @@ a {
   width: auto;
   padding-top: 1rem;
   text-align: center;
+}
+
+.fancy-text-link {
+  color: rgb(223, 174, 209);
+  box-shadow: rgb(45, 8, 72) 0px -4px 0px inset;
+}
+
+.fancy-text-link:hover {
+  box-shadow: rgb(153, 24, 245) 0px -1px 0px inset;
+
 }
